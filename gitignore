@@ -1,0 +1,34 @@
+# Model weights (too large for GitHub, use HuggingFace Hub or Git LFS instead)
+best_sentiment_model/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Logs with timestamps (keep results/ folders instead)
+logs/
+transformer_logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
